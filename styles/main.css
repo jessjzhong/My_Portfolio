@@ -1,5 +1,5 @@
 header {
-  background: url(images/yosemite.jpg) center / cover;
+  background: url(../images/Tuolumme_snow.png) center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;
@@ -7,11 +7,11 @@ header {
 
 h1 {
    color: hsla(0, 0%, 100%, 0.9);
-   font-weight: bold;
+   font-weight: semi-bold;
  }
 
  .slogan {
-   color: hsla(0, 0%, 100%, 0.8);
+   color: hsla(0, 0%, 100%, 0.7);
    font-weight: lighter;
    font-size: 1.6rem;
  }
@@ -44,3 +44,9 @@ footer.mdl-mini-footer > ul {
    margin: auto;
   font-size: 2rem;
  }
+
+ @media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+      display: flex;
+    }
+  }
